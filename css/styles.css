@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+    --green: #33FF33;
+    --orange: #FFB000;
+    --blue: #01A0E4;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'VT323', monospace;
+    background: black;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--blue);
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 60px;
+    margin: 60px 0 0 0;
+    color: var(--green);
+}
+
+.container h3 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--green);
+    margin: 0 0 60px 0;
+}
+
+.userInput {
+    color: var(--orange);
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#terminalOutput {
+    width: 100%;
+    height: 400px;
+    padding: 12px;
+    overflow-y: auto;
+    resize: none;
+    border: 2px solid var(--orange);
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+    line-height: 28px;
+    display: block;
+    color: white;
+}
+
+#terminalInput {
+    display: block;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    color: white;
+    border: 2px solid var(--orange);
+    padding: 18px;
+    font-size: 20px;
+    outline: none;
+    caret-color: var(--green);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--orange);
+}
+
+@media screen and (max-width: 1000px){
+    .container {
+      width: 100%;
+      padding: 0 12px;
+    }
+
+    .container h2 {
+      font-size: 32px;
+      margin: 40px 0 0 0;
+    }
+
+    .container h3 {
+      font-size: 16px;
+      margin: 0 0 40px 0;
+    }
+}
