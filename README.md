@@ -1,14 +1,17 @@
 # Terminal Themed Portfolio
 
 **Languages Used:**
+
 - HTML
 - CSS
 - JavaScript
 
 **Tools Used:**
+
 - VSCode
 
 **Commands:**
+
 - `help` - Shows the list of all available commands
 - `about` - Shows my basic information
 - `skills` - Shows the list of my skills
