@@ -23,4 +23,6 @@
 
 [CSS CRT Filter](http://aleclownes.com/2017/02/01/crt-display.html)
 
+[Logos](https://simpleicons.org/)
+
 [Favicon](https://www.iconfinder.com/)
