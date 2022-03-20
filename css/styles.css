@@ -127,6 +127,12 @@ h2::after {
     caret-color: var(--green);
 }
 
+#icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
     height: 5px;

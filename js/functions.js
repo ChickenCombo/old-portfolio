@@ -63,10 +63,9 @@ function help() {
 function about() {
     let about = [
         "Lester Cuadra",
-        "Developer",
         "Manila, Philippines",
-        "Studied BSIT at University of Santo Tomas",
-        "Loves music, video games, and programming."
+        "Studies BSIT at University of Santo Tomas",
+        "Loves music, video games, and anime."
     ].join('<br />');
     printResult(about);
 }
@@ -75,12 +74,12 @@ function about() {
 function skills() {
     let skills = [
         "List of my skills/expertise: ",
-        "&emsp; ├── Java",
-        "&emsp; ├── Python",
-        "&emsp; ├── HTML",
-        "&emsp; ├── CSS",
-        "&emsp; ├── JavaScript",
-        "&emsp; └── Git"
+        `&emsp; ├── <img id="icon" src="img/java.svg"/> Java`,
+        `&emsp; ├── <img id="icon" src="img/python.svg"/> Python`,
+        `&emsp; ├── <img id="icon" src="img/html5.svg"/> HTML`,
+        `&emsp; ├── <img id="icon" src="img/css3.svg"/> CSS`,
+        `&emsp; ├── <img id="icon" src="img/javascript.svg"/> JavaScript`,
+        `&emsp; └── <img id="icon" src="img/git.svg"/> Git / <img id="icon" src="img/github.svg"/> GitHub`
     ].join('<br />');
     printResult(skills);
 }
@@ -89,9 +88,9 @@ function skills() {
 function contacts() {
     let skills = [
         "List of my contact informations (hyperlinks): ",
-        `&emsp; ├── <a href="mailto:lester.cuadra24@gmail.com" target="_blank">E-mail</a>`,
-        `&emsp; ├── <a href="https://www.facebook.com/adromedemon/" target="_blank">Facebook</a>`,
-        `&emsp; └── <a href="https://github.com/ChickenCombo/" target="_blank">GitHub</a>`
+        `&emsp; ├── <img id="icon" src="img/email.svg"/> <a href="mailto:lester.cuadra24@gmail.com" target="_blank">E-mail</a>`,
+        `&emsp; ├── <img id="icon" src="img/facebook.svg"/> <a href="https://www.facebook.com/adromedemon/" target="_blank">Facebook</a>`,
+        `&emsp; └── <img id="icon" src="img/github.svg"/> <a href="https://github.com/ChickenCombo/" target="_blank">GitHub</a>`
     ].join('<br />');
     printResult(skills);
 }
