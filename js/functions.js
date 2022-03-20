@@ -62,10 +62,10 @@ function help() {
 // Display developer's information
 function about() {
     let about = [
-        "Lester Cuadra",
-        "Manila, Philippines",
-        "Studies BSIT at University of Santo Tomas",
-        "Loves music, video games, and anime."
+        "Hi, I'm Lester",
+        "A software developer",
+        "Based in Manila, Philippines",
+        "Loves music, video games, anime, and programming."
     ].join('<br />');
     printResult(about);
 }
