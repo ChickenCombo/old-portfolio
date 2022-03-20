@@ -4,6 +4,7 @@
     --green: #33FF33;
     --orange: #FFB000;
     --blue: #01A0E4;
+    --speed: 2s;
 }
 
 html {
@@ -28,6 +29,48 @@ a {
     color: var(--blue);
 }
 
+h2 {
+    position: relative;
+}
+
+h2::before, h2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+h2::before {
+    background: black;
+    animation:
+        typewriter var(--speed) steps(13) 750ms forwards;
+}
+
+h2::after {
+    height: .100em;
+    width: .500em;
+    margin-top: 45px;
+    margin-left: 5px;
+    background: var(--green);
+    animation:
+        typewriter var(--speed) steps(13) 750ms forwards,
+        blink 500ms steps(13) infinite;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
 .container {
     width: 1000px;
     margin: 0 auto;
@@ -35,7 +78,6 @@ a {
 
 .container h2 {
     display: inline-block;
-    width: 100%;
     text-align: left;
     font-weight: bolder;
     font-size: 60px;
@@ -111,5 +153,9 @@ a {
     .container h3 {
       font-size: 16px;
       margin: 0 0 40px 0;
+    }
+
+    h2::after {
+        margin-top: 25px;
     }
 }
