@@ -99,7 +99,9 @@ function contacts() {
 function projects() {
     let skills = [
         `S:\>_ Android Weather App`,
-        `&emsp; └── <a href="https://github.com/ChickenCombo/Weather-App" target="_blank">GitHub</a>`
+        `&emsp; └── <a href="https://github.com/ChickenCombo/weather-app" target="_blank">GitHub</a> | <a href="https://github.com/ChickenCombo/weather-app/releases/tag/v1.0.0" target="_blank">Demo</a>`,
+        `S:\>_ Higher or Lower: Anime Edition`,
+        `&emsp; └── <a href="https://github.com/ChickenCombo/higher-or-lower" target="_blank">GitHub</a> | <a href="https://higherorlower-anime.netlify.app/" target="_blank">Demo</a>`,
     ].join('<br />');
     printResult(skills);
 }
