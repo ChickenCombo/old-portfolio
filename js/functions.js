@@ -63,8 +63,8 @@ function help() {
 function about() {
     let about = [
         "Hi, I'm Lester",
-        "A software developer",
-        "Based in Manila, Philippines",
+        "An aspiring Software Engineer",
+        "Based in Quezon City, Philippines",
         "Loves music, video games, anime, and programming."
     ].join('<br />');
     printResult(about);
@@ -88,7 +88,7 @@ function skills() {
 function contacts() {
     let skills = [
         "List of my contact informations (hyperlinks): ",
-        `&emsp; ├── <img id="icon" src="img/email.svg"/> <a href="mailto:lester.cuadra24@gmail.com" target="_blank">E-mail</a>`,
+        `&emsp; ├── <img id="icon" src="img/email.svg"/> <a href="mailto:johnlestercuadra.dev@gmail.com.com" target="_blank">E-mail</a>`,
         `&emsp; ├── <img id="icon" src="img/facebook.svg"/> <a href="https://www.facebook.com/adromedemon/" target="_blank">Facebook</a>`,
         `&emsp; └── <img id="icon" src="img/github.svg"/> <a href="https://github.com/ChickenCombo/" target="_blank">GitHub</a>`
     ].join('<br />');
@@ -110,7 +110,7 @@ function projects() {
 function invalidCommand(input) {
     let invalid = [
         `The term '${input}' is an invalid command.`,
-        `Type "help" to view the available commands.`
+        `Type "help" to get started.`
     ].join('<br />');
     printResult(invalid);
 }

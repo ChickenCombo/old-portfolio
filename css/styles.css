@@ -158,12 +158,11 @@ h2::after {
 ::-webkit-scrollbar {
     width: 10px;
     height: 5px;
-    border-radius: 10px;
     opacity: 0;
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
+    border-radius: 3px;
     background: var(--orange);
 }
 
