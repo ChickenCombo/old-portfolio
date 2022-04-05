@@ -6,8 +6,8 @@ function pageLoaded() {
     document.getElementById('terminalInput').focus();
 
     // Welcome Message
-    printResult("Welcome to myPortfolio v1.0.0");
-    printResult("Type \"help\" to view the available commands");
+    printResult("Welcome to myPortfolio v1.0.0!");
+    printResult("Type \"help\" to get started.");
 
     document.getElementsByTagName('form')[0].onsubmit = function(evt) {
         evt.preventDefault();
@@ -89,7 +89,7 @@ function contacts() {
     let skills = [
         "List of my contact informations (hyperlinks): ",
         `&emsp; ├── <img id="icon" src="img/email.svg"/> <a href="mailto:johnlestercuadra.dev@gmail.com.com" target="_blank">E-mail</a>`,
-        `&emsp; ├── <img id="icon" src="img/facebook.svg"/> <a href="https://www.facebook.com/adromedemon/" target="_blank">Facebook</a>`,
+        `&emsp; ├── <img id="icon" src="img/linkedin.svg"/> <a href="www.linkedin.com/in/johnlestercuadra" target="_blank">LinkedIn</a>`,
         `&emsp; └── <img id="icon" src="img/github.svg"/> <a href="https://github.com/ChickenCombo/" target="_blank">GitHub</a>`
     ].join('<br />');
     printResult(skills);
@@ -110,7 +110,7 @@ function projects() {
 function invalidCommand(input) {
     let invalid = [
         `The term '${input}' is an invalid command.`,
-        `Type "help" to get started.`
+        `Type "help" to view the available commands.`
     ].join('<br />');
     printResult(invalid);
 }
