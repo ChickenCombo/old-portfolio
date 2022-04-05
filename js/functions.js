@@ -88,7 +88,7 @@ function skills() {
 function contacts() {
     let skills = [
         "List of my contact informations (hyperlinks): ",
-        `&emsp; ├── <img id="icon" src="img/email.svg"/> <a href="mailto:johnlestercuadra.dev@gmail.com.com" target="_blank">E-mail</a>`,
+        `&emsp; ├── <img id="icon" src="img/email.svg"/> <a href="mailto:johnlestercuadra.dev@gmail.com" target="_blank">E-mail</a>`,
         `&emsp; ├── <img id="icon" src="img/linkedin.svg"/> <a href="www.linkedin.com/in/johnlestercuadra" target="_blank">LinkedIn</a>`,
         `&emsp; └── <img id="icon" src="img/github.svg"/> <a href="https://github.com/ChickenCombo/" target="_blank">GitHub</a>`
     ].join('<br />');
